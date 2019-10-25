@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hackathon 2019 | February 22-24 University of Petroleum and Energy Studies</title>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (navigator.userAgent.indexOf('Safari') != -1 &&
+        navigator.userAgent.indexOf('Chrome') == -1) {
+        let illustration = document.getElementById("landing-illustration");
+        illustration.setAttribute("src", "assets/img/v6-tower.png")
+      }
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109906061-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109906061-2');
+  </script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+  <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/css/96f33735649d70212b6e9acb47409e312649fbb3/assets/css/styles.css' />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <progress value="0" id="progressBar">
+    <div class="progress-container"></div>
+  </progress>
+
+  <section class="landing-container justify-content-center" id="landing">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 landing-left">
+          <div class="landing-logo">
+            <div>
+              <img src="./assets/images/logo-white.png"/>
+            </div>
+          </div>
+
+          <div>
+            <div class="title">
+              <h1 id="hackdavis">HACKA<b>THON</b></h1>
+            </div>
+            <div class="details">
+              <code class="facts" id="typed" style="animation: fadeIn .5s both;animation-delay: .20s;"></code>
+              <div>
+                <div class="cohost-landing-line">Title Sponsors:</div><br>
+                <a class="sponsors-link" href="https://www.github.com/">
+                  &nbsp;&nbsp;&nbsp;<img width="120px" class="img-fluid silver-sponsor" src="./assets/images/GitHub.png">
+                </a>
+                <br>
+                <a class="sponsors-link" href="https://www.codingblocks.com/">
+                  <img width="140px" class="img-fluid silver-sponsor" src="./assets/images/codingblocks.png">
+                </a>
+              </div>
+
+              <code class="facts" style="animation: fadeIn .5s both;animation-delay: .25s;"><br><br>February 22-24,
+                2019</code>
+              <code class="facts" style="animation: fadeIn .5s both;animation-delay: 0.35s;"><br>AT UPES,
+                DEHRADUN</code>
+            </div>
+          </div>
+          <div class="d-flex align-items-center">
+            <a id="apply-button" href="./form.html">
+              <button class="get-notified">Theme-Selection</button>
+            </a>
+            <a id="apply-button" href="./Hackathon 3 PPT.pptx">
+              <button class="get-notified">PPT Template</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="landing-picture">
+            <img id="landing-illustration" src="https://d33wubrfki0l68.cloudfront.net/f54f32fc16b1dc0c991c397b1cc1a7aa713aa403/0848c/assets/img/v6-tower.svg"
+              alt="tower" class="tower">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-container">
+    <div class="container stats-content">
+      <ul class="list-features justify-content-center row">
+        <li class="col-lg-3 col-sm-6" data-entrance="fade">
+          <h2 class="stats">700<small>+</small></h2>
+          <code>Coders</code>
+        </li>
+        <li class="col-lg-3 col-sm-6" data-entrance="fade" data-entrance-delay="100">
+          <h2 class="stats">48</h2>
+          <code>Hours</code>
+        </li>
+        <li class="col-lg-3 col-sm-6" data-entrance="fade" data-entrance-delay="200">
+          <h2 class="stats">1.25 lac <small></small></h2>
+          <code>Prizes</code>
+        </li>
+        <li class="col-lg-3 col-sm-6" data-entrance="fade" data-entrance-delay="300">
+          <h2 class="stats">100<small>+</small></h2>
+          <code>Projects</code>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about-container">
+    <div class="container about-content" data-entrance="fade">
+      <div class="row">
+        <div class="col-md-7 readable-text-col social-good-left">
+          <h1 class="social-good-text" data-entrance="fade">
+            <span class="underline hack">Code for Social Good</span>
+          </h1>
+          <p class="about-text">
+            With the rapid advancement of technology, it is important to use its power in ways that benefit society.
+            Hackathon challenges its participants to code for social good,
+            and create an opportunity for us to explore the intersection between technology and society.
+          </p>
+          <p class="about-text">
+            On February 22-24, over 700 students, hackers, and creators will come together for 48 hours of coding.
+            For the 3rd year in a row, we are bringing the most talented students in India to address the state's most
+            pressing issues.
+            Participants can choose to build a project that solves a problem in one of our live themes.
+          </p>
+        </div>
+        <div class="col-md-5 social-good-right">
+          <img src="https://d33wubrfki0l68.cloudfront.net/19d00eb0a801e19c1f021f6a1de803de53fd2387/a250f/assets/img/v3-social-good-small.png"
+            alt="social-good" class="social-good">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tracks-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 readable-text-col" data-entrance="fade">
+          <div class="tracks-header">
+            <div class="tracks-picture">
+              <img src="https://d33wubrfki0l68.cloudfront.net/e40f65590c5599ef27689e1d22e7bf18008105d4/abfa1/assets/img/heart.svg"
+                alt="heart" class="tracks-img">
+            </div>
+            <h2 class="tracks-title">
+              <span class="underline health">Health</span>
+            </h2>
+          </div>
+          <p class="tracks-des">
+            Develop a product that encourages people to live a healthier lifestyle. Help predict and prevent illnesses
+            before they affect the body.
+          </p>
+        </div>
+        <div class="col-md-4 readable-text-col" data-entrance="fade" data-entrance-delay="100">
+          <div class="tracks-header">
+            <div class="tracks-picture">
+              <img src="https://d33wubrfki0l68.cloudfront.net/40c07a282f6fb10a767186166e3a380a7f95f108/f64c5/assets/img/plant.svg"
+                alt="plant" class="tracks-img">
+            </div>
+            <h2 class="tracks-title">
+              <span class="underline environment">Environment</span>
+            </h2>
+          </div>
+          <p class="tracks-des">
+            Aggregate public data to analyze or improve government green energy policies. Design solutions to reduce
+            energy consumption in habitable spaces.
+          </p>
+        </div>
+        <div class="col-md-4 readable-text-col" data-entrance="fade" data-entrance-delay="200">
+          <div class="tracks-header">
+            <div class="tracks-picture">
+              <img src="https://d33wubrfki0l68.cloudfront.net/f6b257d7f08ee6986c0ff92c97a1978f768f64a0/436c2/assets/img/book.svg"
+                alt="book" class="tracks-img">
+            </div>
+            <h2 class="tracks-title">
+              <span class="underline education">Education</span>
+            </h2>
+          </div>
+          <p class="tracks-des">
+            Discover new ways to faciliatate learning within the classroom. Enable accessible education for individuals
+            with learning disabilities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule-container">
+    <p class="section-title" data-entrance="fade">
+      <span class="underline schedule">schedule</span>
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="day" data-entrance="fade">
+            <div class="day-title">
+              Friday
+            </div>
+            <div class="day-date">
+              22.02
+            </div>
+            <div class="time-box">
+              <p>am</p>
+            </div>
+            <div class="event">
+              <div class="time">
+                10:30
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Theme Selection
+                </div>
+              </div>
+            </div>
+
+            <div class="time-box">
+              <p>pm</p>
+            </div>
+            <div class="event">
+              <div class="time">
+                1:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Presentation
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="time">
+                5:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Results
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="time">
+                6:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  IT Tower
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="time">
+                7:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Dinner
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="time">
+                9:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Coding Starts
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="day" data-entrance="fade" data-entrance-delay="100">
+            <div class="day-title">
+              Saturday
+            </div>
+            <div class="day-date">
+              23.02
+            </div>
+            <div class="time-box">
+              <p>
+                am
+              </p>
+            </div>
+
+            <div class="event">
+              <div class="time">
+                7:30
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Breakfast
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="time">
+                10:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Elimination
+                </div>
+              </div>
+            </div>
+            <div class="time-box">
+              <p>
+                pm
+              </p>
+            </div>
+            <div class="event">
+              <div class="time">
+                12:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  lunch
+                </div>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="time">
+                4:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  elimination
+                </div>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="time">
+                7:00
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  Dinner
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="day" data-entrance="fade" data-entrance-delay="100">
+            <div class="day-title">
+              sunday
+            </div>
+            <div class="day-date">
+              24.02
+            </div>
+            <div class="time-box">
+              <p>am</p>
+            </div>
+            <div class="event">
+              <div class="time">
+                7:30
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  breakfast
+                </div>
+              </div>
+            </div>
+            <div class="time-box">
+              <p>
+                pm
+              </p>
+            </div>
+            <div class="event">
+              <div class="time">
+                10:30
+              </div>
+              <div class="details">
+                <div class="event-title">
+                  final presentation
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section class="faq-container">
+    <div class="container">
+      <p class="section-title" data-entrance="fade">
+        <span class="underline faq">FAQ</span>
+      </p>
+      <div class="faq-content center">
+        <div class="accordion">
+          <div class="accordion-item" data-entrance="fade">
+            <a class="question">What is a hackathon?</a>
+            <div class="content">
+              <p class="answer">
+                A hackathon is where you transform your crazy ideas into real stuff.
+                Thousands of coders across Dehradun and other parts of the INdia form teams around an idea and
+                collaboratively create a solution from scratch.
+                These ideas turn into websites, mobile apps, hardware, and more!
+                <br><br>
+                Come make the most incredible things you can imagine alongside fellow creators. You take care of
+                building and we'll take care of you.
+                <br><br>
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item" data-entrance="fade">
+            <a class="question">Who can attend?</a>
+            <div class="content">
+              <p>
+                Hackathon is open to all majors! As long as you're prepared to learn, brainstorm, and build cool
+                things, we welcome you to join.
+                We encourage participants to form teams of up to 4 people and a minimum of 2.
+                <br> <br>
+                We will be holding workshops throughout the year for students to immerse themselves into the world of
+                hackathons and technology.
+                These workshops will be held by industry professionals and members of our team, who will teach new and
+                upcoming tools that assist with web development, mobile development, and more.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item" data-entrance="fade">
+            <a class="question">What can I build?</a>
+            <div class="content">
+              <p>
+                You can build whatever your heart desires, whether its a web app, mobile app, or an open source tool.
+                Any project under one of oyr live themes is recommended.
+                <br> <br>
+                Our main focus is to bring you a learning experience where you can have fun, ask questions, and
+                experiment with technology.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item" data-entrance="fade">
+            <a class="question">How much does it cost?</a>
+            <div class="content">
+              <p>
+                Hackathon is free for all admitted participants.(Pre-event registrations have been done) Don’t sweat
+                it! We will provide your WiFi, meals, caffeine, swag, and workspace for the entire weekend.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="sponsors-container">
+    <div class="container">
+
+      <p class="section-title" data-entrance="fade">
+        <span class="underline sponsors">sponsors</span>
+      </p>
+
+      <!-- Sponser images -->
+      <div class="container" data-entrance="fade">
+        <!-- Bronze Sponsors -->
+        <div class="row">
+          <div class="col-lg-4 col-6">
+            <a class="sponsors-link" href="#">
+              <img class="img-fluid bronze-sponsor" src="./assets/images/sponsor1.jpg">
+            </a>
+          </div>
+          <div class="col-lg-4 col-6">
+            <a class="sponsors-link" href="#">
+              <img class="img-fluid bronze-sponsor" src="./assets/images/sponsor2.jpg">
+            </a>
+          </div>
+
+  </section>
+
+  <section class="contact-container">
+    <img src="./assets/images/logo-white.png" alt="logo" class="logo-picture">
+    <div id="copyright">
+      <span>&copy; 2019 Hackathaon UPES-CSI </span>
+    </div>
+  </section>
+
+  <a href="#landing" id="scroll-to-top">
+    <i class="icon-chevron-up"></i>
+  </a>
+
+  <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src='https://d33wubrfki0l68.cloudfront.net/js/f0db6c604cfc958eb152709f0d5fe9c51d73eb1c/dist/bundle.js'></script>
+</body>
+
+</html>

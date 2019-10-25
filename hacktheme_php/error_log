@@ -1,0 +1,68 @@
+[15-Feb-2018 18:16:10 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/upesc9pa/public_html/test/hacktheme_php/config.php on line 2
+[15-Feb-2018 18:18:28 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/upesc9pa/public_html/test/hacktheme_php/config.php on line 2
+[16-Feb-2018 03:11:20 Etc/GMT] PHP Notice:  Undefined index: teamid in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 4
+[16-Feb-2018 03:11:20 Etc/GMT] PHP Notice:  Undefined index: otp in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 6
+[16-Feb-2018 03:12:20 Etc/GMT] PHP Notice:  Undefined index: teamid in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 4
+[16-Feb-2018 03:12:20 Etc/GMT] PHP Notice:  Undefined index: otp in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 6
+[16-Feb-2018 03:26:22 Etc/GMT] PHP Parse error:  syntax error, unexpected 'otp' (T_STRING), expecting ']' in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 15
+[16-Feb-2018 03:27:19 Etc/GMT] PHP Parse error:  syntax error, unexpected 'otp' (T_STRING), expecting ']' in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 15
+[16-Feb-2018 03:27:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'otp' (T_STRING), expecting ']' in /home/upesc9pa/public_html/test/hacktheme_php/login.php on line 15
+[16-Feb-2018 04:04:41 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in /home/upesc9pa/public_html/test/hacktheme_php/select.php on line 50
+[16-Feb-2018 04:05:25 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in /home/upesc9pa/public_html/test/hacktheme_php/select.php on line 50
+[16-Feb-2018 04:05:28 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in /home/upesc9pa/public_html/test/hacktheme_php/select.php on line 50
+[16-Feb-2018 06:33:17 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 06:33:38 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 07:00:00 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 07:14:30 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 07:20:42 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 07:20:56 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 08:08:06 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 08:59:35 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 09:59:26 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 15:25:47 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[16-Feb-2018 16:51:35 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[18-Feb-2018 10:20:43 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[18-Feb-2018 21:41:49 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[22-Feb-2019 05:30:11 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'upesc9pa_hackathon'@'localhost' (using password: YES) in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[22-Feb-2019 06:11:28 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[22-Feb-2019 06:11:29 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[22-Feb-2019 06:11:30 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[22-Feb-2019 10:57:14 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[22-Feb-2019 13:04:44 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[23-Feb-2019 00:37:26 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[23-Feb-2019 02:03:23 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[23-Feb-2019 07:10:50 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[23-Feb-2019 17:22:16 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[26-Feb-2019 16:24:06 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[26-Feb-2019 22:09:48 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[28-Feb-2019 20:44:28 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[01-Mar-2019 06:44:05 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[05-Mar-2019 16:51:29 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[11-Mar-2019 07:28:30 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[11-Mar-2019 12:36:04 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[12-Mar-2019 05:25:22 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[15-Mar-2019 17:48:35 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[15-Mar-2019 19:27:18 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[05-Apr-2019 14:44:03 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[06-May-2019 15:58:12 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[06-Jun-2019 23:45:00 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[07-Jul-2019 18:09:53 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[07-Jul-2019 18:22:37 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[07-Jul-2019 18:29:07 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[07-Jul-2019 18:29:07 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[07-Jul-2019 18:34:36 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[10-Jul-2019 22:09:07 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[03-Aug-2019 17:59:18 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[03-Aug-2019 17:59:18 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[08-Aug-2019 22:02:41 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[08-Aug-2019 22:02:41 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[08-Aug-2019 22:20:12 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[08-Aug-2019 22:38:40 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[08-Aug-2019 22:41:41 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[11-Aug-2019 01:32:52 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[09-Sep-2019 21:45:31 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[09-Sep-2019 21:45:31 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[09-Sep-2019 21:52:34 Etc/GMT] PHP Notice:  Undefined index: tf in /home/upesc9pa/public_html/hackathon/hacktheme_php/congrats.php on line 3
+[09-Sep-2019 21:55:15 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[09-Sep-2019 21:56:43 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
+[11-Sep-2019 15:36:53 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/upesc9pa/public_html/hackathon/hacktheme_php/config.php on line 2
